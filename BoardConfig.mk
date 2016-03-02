@@ -147,3 +147,5 @@ EXTENDED_FONT_FOOTPRINT := true
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
 MALLOC_IMPL := dlmalloc
+
+BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
