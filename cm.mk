@@ -26,7 +26,8 @@ TARGET_PREBUILT_KERNEL := false
 
 # Extra Packages
 PRODUCT_PACKAGES += \
-    com.android.nfc_extras
+    com.android.nfc_extras \
+    firstboot
 
 # CM Overlays
 DEVICE_PACKAGE_OVERLAYS += device/htc/flounder/overlay-cm
