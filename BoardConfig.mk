@@ -99,6 +99,7 @@ BOARD_SEPOLICY_UNION := \
 	file_contexts \
 	genfs_contexts \
 	gpsd.te \
+	init.te \
 	kernel.te \
 	kickstart.te \
 	mediaserver.te \
