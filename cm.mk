@@ -30,7 +30,9 @@ PRODUCT_PACKAGES += \
     firstboot
 
 # CM Overlays
-DEVICE_PACKAGE_OVERLAYS += device/htc/flounder/overlay-cm
+DEVICE_PACKAGE_OVERLAYS += \
+    device/htc/flounder/overlay-cm \
+    device/htc/flounder/overlay-aeris
 
 # Enable USB OTG (CAF commit to Settings)
 ADDITIONAL_BUILD_PROPERTIES += \
